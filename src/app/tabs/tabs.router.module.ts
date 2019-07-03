@@ -13,6 +13,10 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: '../tab1/tab1.module#Tab1PageModule'
+          },
+          {
+            path: 'ticket-detail/:ticketID',
+            loadChildren: '../ticket-detail/ticket-detail.module#TicketDetailPageModule'
           }
         ]
       },
